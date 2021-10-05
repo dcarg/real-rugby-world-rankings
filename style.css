@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "futura-pt-bold";
+    src: url('fonts/futura-pt-bold.ttf') format('truetype');
+}
+
+body {
+    background-color: #F9F9F9;
+    margin: 0;
+    font-size: 12;
+}
+
+main {
+    width: 60%;
+    height: 100vh;
+    margin: auto;
+    background-color: white;
+}
+
+nav {
+    display: flex;
+    text-align: center;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-family:'futura-pt-bold';
+    font-size: x-large;
+}
+
+#container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center; 
+}
+
+table {
+    font-family: 'Open Sans', sans-serif;
+    width: 50%;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid lightgrey;
+    font-size: 11px;
+}
+th {color: lightgray}
+/* tr {} */
+
+tr:nth-child(even) {background-color: #F9F9F9}
