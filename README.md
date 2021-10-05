@@ -3,4 +3,4 @@ Scraping the world rugby rankings and updating them appropriately. Accounting fo
 
 https://www.world.rugby/tournaments/rankings/mru
 
-Scraping the top ten rankings.
+Scraping the top ten world rankings.
